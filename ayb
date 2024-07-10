@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appareil de Massage Visage et Cou</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .intro, .features, .testimonials, .cta, .contact {
+            margin-bottom: 2em;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 1.5em;
+        }
+        .cta button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 2em;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta button:hover {
+            background-color: #45a049;
+        }
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: text-decoration 0.3s;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 1em 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Appareil de Massage Visage et Cou</h1>
+    <p>Découvrez le secret pour une peau éclatante et détendue</p>
+</header>
+
+<div class="container">
+    <section class="intro">
+        <h2>À propos de notre appareil de massage</h2>
+        <p>Notre appareil de massage pour le visage et le cou est conçu pour offrir une expérience relaxante tout en améliorant la santé de votre peau. Utilisant les dernières technologies en matière de massage, il aide à réduire les rides, les poches sous les yeux et les tensions musculaires.</p>
+    </section>
+
+    <section class="features">
+        <h2>Caractéristiques et Avantages</h2>
+        <ul>
+            <li><strong>Technologie de massage par vibrations :</strong> Stimule la circulation sanguine et favorise le renouvellement cellulaire.</li>
+            <li><strong>Design ergonomique :</strong> Facile à utiliser et adapté à toutes les formes de visage et de cou.</li>
+            <li><strong>Portabilité :</strong> Compact et léger, parfait pour une utilisation à domicile ou en déplacement.</li>
+            <li><strong>Réduction des signes de vieillissement :</strong> Aide à diminuer l'apparence des rides et des ridules.</li>
+        </ul>
+    </section>
+
+    <section class="testimonials">
+        <h2>Témoignages de nos clients</h2>
+        <p>"Cet appareil est incroyable ! Ma peau n'a jamais été aussi douce et détendue." - <strong>Sophie L.</strong></p>
+        <p>"Je l'utilise tous les jours et je vois déjà une grande différence sur mes rides." - <strong>Marc D.</strong></p>
+    </section>
+
+    <section class="cta">
+        <h2>Prêt à transformer votre peau ?</h2>
+        <button onclick="window.location.href='https://votre-site-web.com/acheter'">Acheter maintenant</button>
+    </section>
+
+    <section class="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question ou information supplémentaire, n'hésitez pas à nous <a href="mailto:info@votre-site-web.com">contacter par email</a> ou nous appeler au <strong>06 02 13 66 80</strong>.</p>
+    </section>
+</div>
+
+</body>
+</html>
